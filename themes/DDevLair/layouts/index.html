@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container mt-3 dm-bg rounded">
+  <h3>O mně</h3>
+  <p>Ahoj!</p>
+  <h3>Poslední příspěvky</h3>
+  {{ $related := first 5 (where .Site.RegularPages "Type" "posts" ) }}
+  {{ with $related }}
+  <ul>
+    {{ range . }}
+    <li><a href="{{ .Permalink }}" class="dm">{{.Date.Format "02.01.2006"}} - {{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  <a href="/posts" class="dm">Všechny příspěvky >></a>
+  <br />
+  <br />
+  <h3>Projekty</h3>
+  {{ $related := first 5 (where .Site.RegularPages "Type" "projects" ) }}
+  {{ with $related }}
+  <ul>
+    {{ range . }}
+    <li><a href="{{ .Permalink }}" class="dm">{{.Date.Format "02.01.2006"}} - {{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  <a href="/projects" class="dm">Všechny projekty >></a>
+  <br/>
+  <br/>
+
+</div>
+{{ end }}
