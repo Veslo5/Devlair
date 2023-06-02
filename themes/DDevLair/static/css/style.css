@@ -1,21 +1,30 @@
 body.dm {
-    background: rgb(31, 41, 62);
-    background: linear-gradient(145deg, rgba(31, 41, 62, 1) 0%, rgba(0, 83, 111, 1) 31%, rgba(0, 129, 143, 1) 100%);
+    background: #1e1e1e;
+    /* background: linear-gradient(145deg, rgba(31, 41, 62, 1) 0%, rgba(0, 83, 111, 1) 31%, rgba(0, 129, 143, 1) 100%); */
+    /* background: linear-gradient(160deg, #1e1e1e 95%, #2d2d30 0%);  */
     background-repeat: no-repeat;
     background-size: 100% 100vh;
-    color: #96795c;
+    color: white;
 }
 
 a.dm {
-    color: #00818f;
+    color: #569bd4;
+    text-decoration: none;
 }
+a.dm:hover {
+    text-decoration: underline;
+  }
 
 .dm-bg {
-    background-color: #181b217b;
+    background-color: #2d2d30;
+}
+
+.dm-nav-bg{
+    background-color: #345f81;
 }
 
 .nav-link {
-    color: #96795c;
+    color: white;
 }
 
 .nav-link:hover {
@@ -23,7 +32,7 @@ a.dm {
 }
 
 .dm-border{
-    border-color: #181b217b !important;
+    border-color: #2d2d30 !important;
 }
 .title {
     color: #96795c;
