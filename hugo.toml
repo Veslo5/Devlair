@@ -25,3 +25,12 @@ canonifyURLs = "true"
     pre = ""
     url = "/aboutme/"
     weight = 4
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+
