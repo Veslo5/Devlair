@@ -1,0 +1,29 @@
+---
+title: "About"
+type: "page"
+layout: "simple-landing"
+draft: false
+---
+# About me
+
+Hi! My name is Petr Veselý. I am a professional software developer currently employed at Seyfor. 
+
+I focus mainly on the **backend infrastructure** like **web APIs** or any **background running services**, but I also worked on **Xamarin Android** apps and ERP fullstack solutions.
+
+So far largest project I've been working on as lead API developer was scalable cloud .NET WEB API, which provides CRUD operations from ERP system to in-house clients after Seyfor(before known as Solitea) decided to make a so-called ["fusion"](https://forbes.cz/obri-fuze-martina-ciglera-brnenska-solitea-spoji-30-firem-do-dvoumiliardoveho-kolosu/) that fused about 30 companies into one. The API proved to be reliable, scalable, and easily maintainable.
+
+In my free time, I contribute to open source projects. I also make video games, or at least trying to (you can read more about it in the [project](/projects) section) I am Warhammer 40,000 fan and I overally love scifi genre. My favorite music genre is metal - mostly underground. When I was younger, I used to paint modern, cold war and WW2 plastic tank models. During my vacation in Norway, I fell in love with their climate, nature and beautiful landscape.
+
+About games, I grow up in PSX/PS2 era. I like PSX rendering techniques - texture distortion, vertex snapping, dithering, all these effects making games from this era unique in strange ways. My favorite game series or games in no particular order are Metal Gear, Bioshock, Stellaris, Doom, Elden Ring and Divinity 2. ***Gameplay > Graphics***
+
+And finally, I have a dog whose name is Arty. He's a breed of border collie and Australian shepherd - the perfect travel companion :)
+
+# Bio
+
+Petr Veselý is .NET, C# software developer. He is passionate about contributing to open source projects and has a proven track record of being a dedicated worker. For over decade, he experimenting with magic behind programming and IT technology.
+
+# Contact & Info
+- [CV](/cv)
+- [LinkedIn](https://www.linkedin.com/in/petr-vesel%C3%BD-35519316a/)
+- [Twitter](https://twitter.com/happy_peter6)
+- [Github](https://github.com/Veslo5)

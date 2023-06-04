@@ -15,6 +15,15 @@ a.dm:hover {
     text-decoration: underline;
   }
 
+#content a {
+    color: #569bd4;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+  }
+
 .dm-bg {
     background-color: #2d2d30;
 }

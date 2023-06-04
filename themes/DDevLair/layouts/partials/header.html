@@ -2,9 +2,9 @@
     <H1>{{ .Site.Title }} 👾 </H1>
 </div>
 <div id="nav-border" class="container mt-3">
-    <nav id="nav" class="nav justify-content-left dm dm-nav-bg rounded-3">
+    <nav id="nav" class="nav justify-content-start dm dm-nav-bg rounded-3">
         {{ range .Site.Menus.main }}
-        <a class="nav-link mx-2" href="{{ .URL }}">
+        <a class="nav-link" href="{{ .URL }}">
         {{ if .Pre }}
         {{/*  {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}  */}}
         {{/*  {{ $icon }}  */}}

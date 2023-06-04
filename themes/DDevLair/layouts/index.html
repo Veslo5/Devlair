@@ -1,8 +1,6 @@
 {{ define "main" }}
 <div class="container mt-3 p-3 dm-bg rounded">
-  <h3>O mně</h3>
-  <p>Ahoj!</p>
-  <h3>Poslední příspěvky</h3>
+  <h3><i data-feather="chevron-right"></i>Latest posts</h3>
   {{ $related := first 5 (where .Site.RegularPages "Type" "posts" ) }}
   {{ with $related }}
   <ul>
@@ -11,10 +9,10 @@
     {{ end }}
   </ul>
   {{ end }}
-  <a href="/posts" class="dm">Všechny příspěvky >></a>
+  <a href="/posts" class="dm">All posts >></a>
   <br />
   <br />
-  <h3>Projekty</h3>
+  <h3><i data-feather="chevron-right"></i>Latest projects</h3>
   {{ $related := first 5 (where .Site.RegularPages "Type" "projects" ) }}
   {{ with $related }}
   <ul>
@@ -23,7 +21,7 @@
     {{ end }}
   </ul>
   {{ end }}
-  <a href="/projects" class="dm">Všechny projekty >></a>
+  <a href="/projects" class="dm">All projects posts >></a>
   <br/>
   <br/>
 

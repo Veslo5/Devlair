@@ -16,12 +16,12 @@ canonifyURLs = "true"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "projekty"
+    name = "projects"
     pre = ""
     url = "/projects/"
     weight = 3
   [[menu.main]]
-    name = "o mně"
+    name = "about"
     pre = ""
     url = "/aboutme/"
     weight = 4
