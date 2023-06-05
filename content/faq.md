@@ -4,7 +4,7 @@ type: "page"
 layout: "simple-landing"
 draft: false
 type: "page"
-layout: "simple-comment"
+layout: "simple-landing-comment"
 ---
 # FAQ
 

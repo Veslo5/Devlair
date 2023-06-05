@@ -31,13 +31,9 @@ Petr Veselý is .NET, C# software developer. He is passionate about contributing
 <ul style="list-style-type: none; padding:0;">
 <li><a href="/faq"><i data-feather="help-circle"></i> FAQ</a></li>
 <li><a href="/cv"><i data-feather="file-text"></i> CV</a></li>
+<li><a href="mailto:petr.vesely@devlair.cz"><i data-feather="at-sign"></i> Email</a></li>
 <li><a href="https://www.linkedin.com/in/petr-vesel%C3%BD-35519316a/"><i data-feather="linkedin"></i> LinkedIn</a></li>
 <li><a href="https://twitter.com/happy_peter6"><i data-feather="twitter"></i> Twitter</a></li>
 <li><a href="https://github.com/Veslo5"><i data-feather="github"></i> Github</a></li>
 </ul>
 {{< /rawhtml >}}
-<!-- - [FAQ](/faq)
-- [CV](/cv)
-- [LinkedIn](https://www.linkedin.com/in/petr-vesel%C3%BD-35519316a/)
-- [Twitter](https://twitter.com/happy_peter6)
-- [Github](https://github.com/Veslo5) -->
