@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="dm">
+    {{- partial "header.html" . -}}
+    <div class="container mt-3">
+        <div id="content">
+            <h1>{{ .Title }}</h1>
+            {{ partial "metadata.html" . }}
+            <br><br>
+            {{ .Content }}
+        </div>
+    </div>
+    {{- partial "footer.html" . -}}
+    <div class="article-container"></div>
+    {{- partial "script.html" . -}}
+    {{- partial "comment.html" . -}}
+</body>
+
+</html>

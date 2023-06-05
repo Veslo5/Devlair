@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container mt-3 p-3 dm-bg rounded">
   <h3><i data-feather="chevron-right"></i>Pinned</h3>
-  <ul>
+  <ul style="list-style-type: none;">
     <li><a href="posts/newblog">New blog!</a></li>
     <li><a href="aboutme">About me</a></li>
   </ul>
@@ -9,7 +9,7 @@
   <h3><i data-feather="chevron-right"></i>Latest posts</h3>
   {{ $related := first 5 (where .Site.RegularPages "Type" "posts" ) }}
   {{ with $related }}
-  <ul>
+  <ul style="list-style-type: none;">
     {{ range . }}
     <li><a href="{{ .Permalink }}" class="dm">{{.Date.Format "02.01.2006"}} - {{ .Title }}</a></li>
     {{ end }}
@@ -21,7 +21,7 @@
   <h3><i data-feather="chevron-right"></i>Latest projects</h3>
   {{ $related := first 5 (where .Site.RegularPages "Type" "projects" ) }}
   {{ with $related }}
-  <ul>
+  <ul style="list-style-type: none;">
     {{ range . }}
     <li><a href="{{ .Permalink }}" class="dm">{{.Date.Format "02.01.2006"}} - {{ .Title }}</a></li>
     {{ end }}
