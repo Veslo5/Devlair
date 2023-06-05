@@ -49,3 +49,7 @@ a.dm:hover {
 .title {
     color: #96795c;
 }
+
+table.dm, th.dm, td.dm {
+    border: 1px solid;
+  }
