@@ -5,7 +5,10 @@ body.dm {
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     color: white;
+    font-family: Helvetica, Verdana, Arial; 
 }
+
+
 
 a.dm {
     color: #569bd4;
