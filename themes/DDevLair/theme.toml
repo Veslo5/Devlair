@@ -3,16 +3,16 @@
 
 name = "DDevLair"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/Veslo5/devlar/blob/master/LICENSE"
+description = "Custom theme for my blog"
+homepage = "http://devlair.cz/"
 tags = []
 features = []
 min_version = "0.112.5"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Petr Veselý"
+  homepage = "https://devlair.cz"
 
 # If porting an existing theme
 [original]
