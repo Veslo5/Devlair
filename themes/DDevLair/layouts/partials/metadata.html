@@ -1,11 +1,22 @@
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "02.01.2006" }}
-<i data-feather="calendar"></i>
-<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+{{ $readTime := mul (div (countwords .Content) 183.0) 60 }}
+{{ $minutes := math.Floor (div $readTime 60) }}
+{{ $seconds := mod $readTime 60 }}
+<div class="d-flex align-items-center">
+    <i data-feather="calendar" class="me-1 dm-metadataicons"></i> 
+    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+    <i class="ms-2 me-1 dm-metadataicons" data-feather="clock"></i>
+    {{ if lt $minutes 1 }}
+    1 min
+    {{ else }}
+    {{ $minutes }} mins
+{{ end }}
 {{ with .Params.tags }}
-<i class="ms-2" data-feather="tag"></i>
+<i class="ms-2 dm-metadataicons" data-feather="tag"></i>
 {{ range . }}
 {{ $href := print (absURL "tags/") (urlize .) }}
 <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
 {{ end }}
 {{ end }}
+</div>

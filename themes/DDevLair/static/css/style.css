@@ -5,7 +5,7 @@ body.dm {
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     color: white;
-    font-family: Helvetica, Verdana, Arial; 
+    font-family: Helvetica, Verdana, Arial;
 }
 
 
@@ -14,9 +14,10 @@ a.dm {
     color: #569bd4;
     text-decoration: none;
 }
+
 a.dm:hover {
     text-decoration: underline;
-  }
+}
 
 #content a {
     color: #569bd4;
@@ -25,13 +26,13 @@ a.dm:hover {
 
 #content a:hover {
     text-decoration: underline;
-  }
+}
 
 .dm-bg {
     background-color: #2d2d30;
 }
 
-.dm-nav-bg{
+.dm-nav-bg {
     background-color: #345f81;
 }
 
@@ -43,13 +44,21 @@ a.dm:hover {
     color: white;
 }
 
-.dm-border{
+.dm-border {
     border-color: #2d2d30 !important;
 }
+
 .title {
     color: #96795c;
 }
 
-table.dm, th.dm, td.dm {
+table.dm,
+th.dm,
+td.dm {
     border: 1px solid;
-  }
+}
+
+.dm-metadataicons {
+    width: 16px;
+    height: 16px;
+}
