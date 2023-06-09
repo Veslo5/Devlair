@@ -13,7 +13,7 @@ layout: "simple-landing-comment"
 - **How often will you add posts?**
     - Currently, I do not have any schedule. I will add posts whenever my time allows me to do so.
 - **Any plans to write posts in the Czech language?**
-    - Yeah, some posts are going to be written in the Czech language!
+    - Some posts are going to be written in the Czech language.
 - **I have some questions, can I contact you?**
     - Sure, in the bottom section of ["about"](/aboutme) are listed contacts, just send me a dm on any site and I will try to answer you asap.
 - **Do you drink coffee?**

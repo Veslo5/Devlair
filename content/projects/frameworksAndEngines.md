@@ -19,35 +19,36 @@ I've tried to be as objective as I could. If you have any suggestions, just put 
 Explanation: 
 
 - **Name:** name of the product and link to its official web page.
-- **Language:** primary programming language. Does not include bindings or any other languages used as extensions.
-- **Target platforms:** platforms on which exported software can run. Includes only official supported ones.
+- **Language:** primary programming language. Excludes bindings or any other programming languages used as extensions.
+- **Target platforms:** platforms on which exported software can run. Includes only official supported ones. **Will add consoles and other misc platforms later.*
 - **Editor:** support for official editor
 - **Crossed out:** no longer supported or archived
 
 {{<table "table table-dark table-bordered">}}
 | Name | Language | Target platforms | Open source | Editor |
 | :---------------------------------------------: | :------------------: | :--------------------------------: |:--: |:--:|
-| [Monogame](https://www.monogame.net/)             | C#                   | win, linux, mac, ios, android    | ✔️  | ❌ |
-| [Löve2D](https://love2d.org/)                   | lua                  | win, linux, mac, ios, android      | ✔️  | ❌ |
-| [Raylib](https://www.raylib.com/)               | C                    | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [Defold](https://defold.com/)                   | lua                  | win, linux, mac, ios, android, web | ✔️* | ✔️ |
-| [Cocos2D](https://www.cocos.com/en)             | lua/JS/C++           | win, linux, mac, ios, android, web | ✔️  | ✔️ |
-| [Duality](https://adamslair.github.io/duality/) | C#                   | win, linux, mac                    | ✔️  | ✔️ |
-| [libGDX](https://libgdx.com/)                   | Java                 | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [Phaser](https://phaser.io/)                    | Javasript/Typescript | web                                | ✔️  | ❌ |
-| [Heaps IO](https://heaps.io/)                   | Haxe                 | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [SFML](https://www.sfml-dev.org/)               | C++                  | win, linux, mac, ios, android      | ✔️  | ❌ |
-| [SDL2](https://www.libsdl.org/)                 | C/C++                | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [Amulet](http://www.amulet.xyz/)                | lua                  | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [PyGame](https://www.pygame.org/)               | Python               | win, linux, mac, web               | ✔️  | ❌ |
-| [Orx](https://orx-project.org/)                 | C++                  | win, linux, mac, ios, android      | ✔️  | ❌ |
-| [Ebiten](https://ebitengine.org/)               | Go                   | win, linux, mac, ios, android, web | ✔️  | ❌ |
-| [Oxygine](https://oxygine.org/)                 | C++                  | win, linux, mac, ios, android, web | ✔️  | ✔️ |
-| [Stride](https://www.stride3d.net/)             | C#                   | win, linux, ios, android           | ✔️  | ✔️ |
-| [Flax Engine](https://flaxengine.com/)          | C++/C#               | win, linux, mac ios, android       | ✔️  | ❌ |
-| [O3DE](https://www.o3de.org/)                   | C++/lua             | win, linux, android                | ❌  | ✔️ |
-| [HaxeFlixel](https://haxeflixel.com/)           | Haxe                 | win, linux, mac ios, android, web  | ✔️  | ❌ |
+| [Amulet](http://www.amulet.xyz/)                | Lua                  | win, linux, mac, ios, android, web | ✔️  | ❌ |
 | [Bevy](https://bevyengine.org/)                 | Rust                 | win, linux, mac ios, web           | ✔️  | ❌ |
+| [Cocos2D](https://www.cocos.com/en)             | Lua/JS/C++           | win, linux, mac, ios, android, web | ✔️  | ✔️ |
+| [Defold](https://defold.com/)                   | Lua                  | win, linux, mac, ios, android, web | ✔️* | ✔️ |
+| [Duality](https://adamslair.github.io/duality/) | C#                   | win, linux, mac                    | ✔️  | ✔️ |
+| [Ebiten](https://ebitengine.org/)               | Go                   | win, linux, mac, ios, android, web | ✔️  | ❌ |
+| [FNA](https://fna-xna.github.io/)               | C#                   | win, linux, mac ios,               | ✔️  | ❌ |
+| [Flax Engine](https://flaxengine.com/)          | C++/C#               | win, linux, mac ios, android       | ✔️  | ✔️ |
+| [HaxeFlixel](https://haxeflixel.com/)           | Haxe                 | win, linux, mac ios, android, web  | ✔️  | ❌ |
+| [Heaps IO](https://heaps.io/)                   | Haxe                 | win, linux, mac, ios, android, web | ✔️  | ✔️ |
+| [Löve2D](https://love2d.org/)                   | Lua                  | win, linux, mac, ios, android      | ✔️  | ❌ |
+| [Monogame](https://www.monogame.net/)           | C#                   | win, linux, mac, ios, android      | ✔️  | ❌ |
+| [O3DE](https://www.o3de.org/)                   | C++/Lua              | win, linux, android                | ✔️  | ✔️ |
+| [Orx](https://orx-project.org/)                 | C++                  | win, linux, mac, ios, android      | ✔️  | ❌ |
+| [Oxygine](https://oxygine.org/)                 | C++                  | win, linux, mac, ios, android, web | ✔️  | ✔️ |
+| [Phaser](https://phaser.io/)                    | JS/TS                | web                                | ✔️  | ❌ |
+| [PyGame](https://www.pygame.org/)               | Python               | win, linux, mac, web               | ✔️  | ❌ |
+| [Raylib](https://www.raylib.com/)               | C                    | win, linux, mac, ios, android, web | ✔️  | ❌ |
+| [SDL2](https://www.libsdl.org/)                 | C/C++                | win, linux, mac, ios, android, web | ✔️  | ❌ |
+| [SFML](https://www.sfml-dev.org/)               | C++                  | win, linux, mac, ios, android      | ✔️  | ❌ |
+| [Stride](https://www.stride3d.net/)             | C#                   | win, linux, ios, android           | ✔️  | ✔️ |
+| [libGDX](https://libgdx.com/)                   | Java                 | win, linux, mac, ios, android, web | ✔️  | ❌ |
 | ~~[Amethyst](https://amethyst.rs/)~~            | ~~Rust~~             | ~~win, linux, mac~~                | ~~✔️~~  | ~~❌~~|
 {{</table>}}
 
@@ -55,19 +56,19 @@ Explanation:
 
 # Mainstream engines
 
+Widely used and well-known engines. 
+
 {{<table "table table-dark table-bordered">}}
 | Name | Language | Target platforms | Open source | Editor |
 | :---------------------------------------------: | :------------------: | :--------------------------------: |:--: |:--:|
+| [Cryengine](https://www.cryengine.com/)         | C++/Lua/C#      | win, linux, mac                    | ❌  | ✔️ |
 | [GameMaker](https://www.yoyogames.com/gamemaker)| GML             | win, linux, mac, ios, android, web | ❌  | ✔️ |
 | [Godot](https://godotengine.org/)               | GodotScript/C#  | win, linux, mac, ios, android, web | ✔️  | ✔️ |
 | [Unity](https://unity.com/)                     | C#              | win, linux, mac, ios, android, web | ❌  | ✔️ |
 | [Unreal](https://www.unrealengine.com/en-US/)   | C++             | win, linux, mac, ios, android, web | ✔️  | ✔️ |
-| [Cryengine](https://www.cryengine.com/)         | C++/lua/C#      | win, linux, mac                    | ❌  | ✔️ |
 {{</table>}}
 
 # Visual programming
-
-I've never tried them yet, but I thought it would be good to include them.
 
 {{<table "table table-dark table-bordered">}}
 | Name |
@@ -82,8 +83,6 @@ I've never tried them yet, but I thought it would be good to include them.
 
 # Fantasy consoles
 
-Funny little tools.
-
 {{<table "table table-dark table-bordered">}}
 | Name |
 | :----------------------------------------: | 
@@ -95,4 +94,4 @@ Funny little tools.
 | [Pyxel](https://github.com/kitao/pyxel)      |
 {{</table>}}
 
-*last update: 05.06.2023*
+*last update: 09.06.2023*

@@ -7,7 +7,7 @@
     <i data-feather="calendar" class="me-1 dm-metadataicons"></i> 
     <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
     <i class="ms-2 me-1 dm-metadataicons" data-feather="clock"></i>
-    {{ if lt $minutes 1 }}
+    {{ if le $minutes 1 }}
     1 min
     {{ else }}
     {{ $minutes }} mins
