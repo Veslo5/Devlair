@@ -1,6 +1,6 @@
 ---
 title: "Why I love fantasy game consoles (and you should too)"
-date: 2023-06-06T17:53:00Z
+date: 2023-06-08T17:53:00Z
 tags: [post]
 draft: false
 type: "posts"
