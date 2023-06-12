@@ -1,7 +1,7 @@
 ---
 title: "New blog!"
 date: 2023-06-03T19:53:00Z
-tags: [post]
+tags: ["post"]
 draft: false
 type: "posts"
 layout: "simple-comment"

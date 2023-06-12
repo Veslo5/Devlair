@@ -1,0 +1,1 @@
+{{$postsLen := len (where .Site.RegularPages "Type" "posts" ) }}{{$projectsLen := len (where .Site.RegularPages "Type" "projects" ) }}{{ add $postsLen $projectsLen }}
