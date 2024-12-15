@@ -6,6 +6,7 @@
         {{ partial "metadata.html" . }}
         {{/* <a class="summary" href="{{ .RelPermalink }}"> */}}
             <p class="mt-2">{{ .Summary | plainify }}</p>
+            {{ partial "metatags.html" . }}
             {{/*
         </a> */}} 
     </div>

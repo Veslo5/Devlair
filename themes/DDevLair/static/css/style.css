@@ -27,7 +27,8 @@ a.dm:hover {
 }
 
 .dm-bg {
-    background-color: #2d2d30;
+    /* background-color: #2d2d30; */
+    border: 1px solid #2d2d30;
 }
 
 .dm-nav-bg {
