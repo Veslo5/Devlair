@@ -5,7 +5,7 @@
         <h3><a class="title dm" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ partial "metadata.html" . }}
         {{/* <a class="summary" href="{{ .RelPermalink }}"> */}}
-            <p class="mt-2">{{ .Summary }}</p>
+            <p class="mt-2">{{ .Summary | plainify }}</p>
             {{/*
         </a> */}} 
     </div>
