@@ -15,7 +15,7 @@
     {{ end }}
   </ul>
   {{ end }}
-  <a href="/posts" class="dm">All posts >></a>
+  <a href="/posts" class="dm">Discover all posts >></a>
   <br />
   <br />
   <h3><i data-feather="chevron-right"></i>Latest projects</h3>
@@ -23,11 +23,11 @@
   {{ with $related }}
   <ul style="list-style-type: none;">
     {{ range . }}
-    <li><a href="{{ .Permalink }}" class="dm">{{.Date.Format "02.01.2006"}} - {{ .Title }}</a></li>
+    <li><a href="{{ .Permalink }}" class="dm">{{ .Title }}</a></li>
     {{ end }}
   </ul>
   {{ end }}
-  <a href="/projects" class="dm">All projects posts >></a>
+  <a href="/projects" class="dm">Discover all projects posts >></a>
   <br/>
   <br/>
 

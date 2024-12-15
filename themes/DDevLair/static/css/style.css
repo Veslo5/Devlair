@@ -8,8 +8,6 @@ body.dm {
     font-family: Helvetica, Verdana, Arial;
 }
 
-
-
 a.dm {
     color: #569bd4;
     text-decoration: none;
@@ -33,7 +31,7 @@ a.dm:hover {
 }
 
 .dm-nav-bg {
-    background-color: #345f81;
+    background: linear-gradient(90deg, rgba(106, 0, 72, 1) 0%, rgba(16, 16, 140, 1) 51%, rgba(0, 203, 144, 1) 100%);
 }
 
 .nav-link {
@@ -61,4 +59,60 @@ td.dm {
 .dm-metadataicons {
     width: 16px;
     height: 16px;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
+    body.dm {
+        background: #ffffff;
+        color: #000000;
+    }
+
+    .dm-bg {
+        background-color: #ffffff;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-in-section {
+    opacity: 0;
+    /* transform: translateY(20vh); */
+    visibility: hidden;
+    animation: fadeIn 1.2s ease-out forwards;
+    /* transition: opacity 0.6s ease-out, transform 1.2s ease-out; */
+    transition: opacity 0.6s ease-out;
+    will-change: opacity, visibility;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /* transform: translateY(20vh); */
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        /* transform: translateY(0); */
+        visibility: visible;
+    }
+}
+
+
+
+/* Apply the animations to the i element */
+#blink {
+    animation: blink 2s linear infinite;
 }

@@ -5,8 +5,10 @@
 <body class="dm">
     {{- partial "header.html" . -}}
     <div class="container mt-3">
-        <div id="content">
-            {{ .Content }}
+        <div class="fade-in-section">
+            <div id="content">
+                {{ .Content }}
+            </div>
         </div>
     </div>
     {{- partial "footer.html" . -}}
