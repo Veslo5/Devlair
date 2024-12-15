@@ -1,5 +1,9 @@
 <div class="container mt-3">
-    <H1>{{ .Site.Title }}<i id="blink">_</i></H1>
+    {{ if eq .Title "Devlair"}}
+    <H1>>{{ .Site.Title }}<i id="blink">_</i></H1>
+    {{ else }}
+    <H1>>{{ .Site.Title }}{{ strings.TrimRight "/" .RelPermalink }}<i id="blink">_</i></H1>
+    {{ end }}
 </div>
 <div id="nav-border" class="container mt-3">
     <nav id="nav" class="nav justify-content-start dm dm-nav-bg rounded-3">
