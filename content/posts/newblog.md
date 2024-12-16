@@ -1,6 +1,7 @@
 ---
 title: "New blog!"
 date: 2023-06-03T19:53:00Z
+description: "Informations about my new blog"
 tags: ["post"]
 draft: false
 type: "posts"

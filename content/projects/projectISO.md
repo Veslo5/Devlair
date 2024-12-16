@@ -1,6 +1,7 @@
 ---
 title: "Project ISO"
 date: 2023-06-11T16:03:00Z
+description: "Description of my isometric engine project"
 tags: ["project", "gamedev"]
 draft: false
 type: "projects"

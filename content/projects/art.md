@@ -1,6 +1,7 @@
 ---
 title: "Art showcase"
 date: 2023-06-10T12:16:00Z
+description: "Showcase of my work"
 tags: ["project", "art"]
 draft: false
 type: "projects"

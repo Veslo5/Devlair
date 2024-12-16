@@ -1,6 +1,7 @@
 ---
 title: "Viewport letterboxing in Raylib"
 date: 2023-09-03T12:02:00Z
+description: "How to create viewport letterboxing in Raylib"
 tags: ["post", "gamedev"]
 draft: false
 type: "posts"

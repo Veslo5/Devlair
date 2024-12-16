@@ -3,6 +3,7 @@ title: "Defold"
 date: 2023-07-12T16:02:00Z
 tags: ["post", "gamedev"]
 draft: false
+description: "My thoughts about Defold engine"
 type: "posts"
 layout: "simple-comment"
 ---

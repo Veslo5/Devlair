@@ -1,5 +1,6 @@
 ---
 title: "FAQ"
+description: "Simple faq"
 type: "page"
 layout: "simple-landing"
 draft: false

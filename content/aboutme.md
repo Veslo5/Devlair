@@ -1,6 +1,7 @@
 ---
 title: "About"
 type: "page"
+description: "Info about my career and journey"
 layout: "simple-landing"
 draft: false
 ---

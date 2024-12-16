@@ -1,6 +1,7 @@
 ---
 title: "Frameworks & Engines"
 date: 2023-06-03T19:53:00Z
+description: "Information I gathered over the years about game tools and engines"
 tags: ["project", "gamedev"]
 draft: false
 type: "projects"
