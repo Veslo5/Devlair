@@ -20,7 +20,7 @@ About games, I grow up in PSX/PS2 era. I like PSX rendering techniques - texture
 And finally, I have a dog whose name is Arty. He's a breed of border collie and Australian shepherd - the perfect travel companion :)
 
 {{< rawhtml >}}
-    <img src="/arty_.webp" class="rounded mx-auto d-block" style="max-width:60%;" alt="Arty"></img>
+    <img src="/arty_.webp" class="rounded mx-auto d-block" style="width=60%;height:auto;max-width:60%;" alt="Arty"></img>
 	<br/>
 {{< /rawhtml >}}
 
