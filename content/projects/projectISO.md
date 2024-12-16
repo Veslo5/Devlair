@@ -10,7 +10,7 @@ Isometric projection is one of my favorite game stylization, and Project ISO was
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/projects/projectiso2.jpg" class="rounded mx-auto d-block img-fluid"></img>
+    <img src="/projects/projectiso2.jpg" class="rounded mx-auto d-block img-fluid" alt="projectiso2"></img>
     <i>First project ISO prototype</i>
 </div>
 <br/>
@@ -21,7 +21,7 @@ Then I figured out how to write a custom abstraction of the map view (camera), h
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/projects/projectiso1.jpg" class="rounded mx-auto d-block img-fluid"></img>
+    <img src="/projects/projectiso1.jpg" class="rounded mx-auto d-block img-fluid" alt="projectiso1"></img>
     <i>Final version with <a href="https://opengameart.org/content/isometric-walls">Ocylixs</a> isometric tileset</i>
 </div>
 <br/>

@@ -9,7 +9,7 @@ layout: "simple-comment"
 
 
 {{< rawhtml >}}
-    <img src="/logos/defold_logo.png" class="mx-auto d-block"></img>
+    <img src="/logos/defold_logo.png" class="mx-auto d-block" alt="defold"></img>
     <br/>
     <br/>
 {{< /rawhtml >}}

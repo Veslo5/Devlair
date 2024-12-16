@@ -27,7 +27,7 @@ We have many interesting [consoles](https://github.com/paladin-t/fantasy) to cho
 ## PICO-8
 
 {{< rawhtml >}}
-    <img src="/logos/pico8_logo.png" class="rounded mx-auto d-block"></img>
+    <img src="/logos/pico8_logo.png" class="rounded mx-auto d-block" alt="pico8"></img>
     <br/>
 {{< /rawhtml >}}
 
@@ -45,7 +45,7 @@ fooX =  5 - 5 -- this line is gonna cost us 5 tokens
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/fantasyConsoles/xenith.png" class="rounded mx-auto d-block" ></img>
+    <img src="/fantasyConsoles/xenith.png" class="rounded mx-auto d-block" alt="xenith" ></img>
     <a href="https://www.lexaloffle.com/bbs/?pid=130692#p">PICO-8 game "Xenith" by Godmil</a>
 </div>
 <br/>
@@ -60,7 +60,7 @@ PICO-8 costs 14.99$ and runs on Windows, Mac, Linux and Raspberry Pi. [Version](
 
 ## TIC-80
 {{< rawhtml >}}
-    <img src="/logos/tic80_logo.png" class="rounded mx-auto d-block"></img>
+    <img src="/logos/tic80_logo.png" class="rounded mx-auto d-block" alt="tic80"></img>
     <br/>
 {{< /rawhtml >}}
 
@@ -72,7 +72,7 @@ Games are distributed in .tic format, or similar to PICO-8, in the .png format.
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/fantasyConsoles/balmung.png" class="rounded mx-auto d-block" ></img>
+    <img src="/fantasyConsoles/balmung.png" class="rounded mx-auto d-block" alt="balmung" ></img>
     <a href="https://tic80.com/play?cart=636">TIC-80 game "Balmung" by petet</a>
 </div>
     <br/>

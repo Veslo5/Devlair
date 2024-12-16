@@ -11,7 +11,7 @@ Besides programming, I also model 3D objects ([blender](https://www.blender.org/
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/projects/avatar1.png" class="rounded mx-auto d-block img-fluid"></img>
+    <img src="/projects/avatar1.png" class="rounded mx-auto d-block img-fluid" alt="avatar1"></img>
     <i>Dark Angels space marine</i>
 </div>
 <br/>
@@ -19,7 +19,7 @@ Besides programming, I also model 3D objects ([blender](https://www.blender.org/
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/projects/avatar2.jpg" class="rounded mx-auto d-block img-fluid"></img>
+    <img src="/projects/avatar2.jpg" class="rounded mx-auto d-block img-fluid" alt="avatar2"></img>
     <i><a href="https://battlerite.fandom.com/wiki/Oldur">Oldurs</a> mask from Battlerite</i>
 </div>
 <br/>
@@ -27,7 +27,7 @@ Besides programming, I also model 3D objects ([blender](https://www.blender.org/
 
 {{< rawhtml >}}
 <div class="text-center">
-    <img src="/projects/preview1.gif" class="rounded mx-auto d-block img-fluid"></img>
+    <img src="/projects/preview1.gif" class="rounded mx-auto d-block img-fluid" alt="psx preview"></img>
     <i>Atmospheric PSX game made in Unity with custom models</i>
 </div>
 <br/>
