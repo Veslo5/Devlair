@@ -9,7 +9,7 @@ body.dm {
 }
 
 a.dm {
-    color: #569bd4;
+    color: #00cb90;
     text-decoration: none;
 }
 
@@ -18,8 +18,8 @@ a.dm:hover {
 }
 
 #content a {
-    color: #569bd4;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 #content a:hover {
@@ -71,6 +71,16 @@ td.dm {
 
     .dm-bg {
         background-color: #ffffff;
+    }
+
+    a.dm {
+        color: #007a58;
+        text-decoration: none;
+    }
+
+    #content a {
+        color: #000000;
+        text-decoration: underline;
     }
 }
 
